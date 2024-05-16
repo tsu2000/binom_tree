@@ -2,12 +2,10 @@ import streamlit as st
 import numpy as np
 import xlsxwriter
 import graphviz
-import requests
 import base64
 import io
 
 from streamlit_extras.badges import badge
-from PIL import Image
 from funcs import *
 
 def main():
