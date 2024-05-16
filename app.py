@@ -45,7 +45,7 @@ def main():
 
     st.markdown("**Parameters given:**")
 
-    st.latex(f"S_0 = {S0}, \quad K = {K}, \quad T = {T}, \quad N = {N},  \quad \Delta t = {np.round(T/N, 4)}, \quad r = {r}, \quad \sigma = {v}")
+    st.latex(f"S_0 = {S0}, \quad K = {K}, \quad T = {np.round(T, 4)}, \quad N = {N},  \quad \Delta t = {np.round(T/N, 4)}, \quad r = {r}, \quad \sigma = {v}")
 
     display_str = f"""digraph {{
         rankdir="LR"
