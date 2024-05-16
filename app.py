@@ -216,13 +216,13 @@ def main():
         
         st.markdown("#### Call and Put Options")
         st.markdown("""
-            A call option gives the holder the right, but not the obligation, to buy an underlying asset at a predetermined price (the strike price) before or at the expiration date. Investors purchase call options when they anticipate that the price of the underlying asset will rise above the strike price before the option expires. This allows them to buy the asset at a lower price and potentially sell it at the current market price, thus profiting from the difference.\\
+            A call option gives the holder the right, but not the obligation, to buy an underlying asset at a predetermined price (the strike price) before or at the expiration date. Investors purchase call options when they anticipate that the price of the underlying asset will rise above the strike price before the option expires. This allows them to buy the asset at a lower price and potentially sell it at the current market price, thus profiting from the difference.
             
-            For example, if you purchase a call option with a strike price of $50 for a stock currently trading at $45, and the stock price rises to $60, you can buy the stock at $50 and either sell it at $60 or hold it for further gains.\\
+            For example, if you purchase a call option with a strike price of $50 for a stock currently trading at $45, and the stock price rises to $60, you can buy the stock at $50 and either sell it at $60 or hold it for further gains.
             
-            A put option gives the holder the right, but not the obligation, to sell an underlying asset at the strike price before or at the expiration date. Investors purchase put options when they expect the price of the underlying asset to fall below the strike price. This allows them to sell the asset at a higher price than the market price, thus profiting from the difference.\\
+            A put option gives the holder the right, but not the obligation, to sell an underlying asset at the strike price before or at the expiration date. Investors purchase put options when they expect the price of the underlying asset to fall below the strike price. This allows them to sell the asset at a higher price than the market price, thus profiting from the difference.
             
-            For instance, if you purchase a put option with a strike price of $50 for a stock currently trading at $55, and the stock price drops to $40, you can sell the stock at $50 and potentially repurchase it at $40, thus making a profit.\\
+            For instance, if you purchase a put option with a strike price of $50 for a stock currently trading at $55, and the stock price drops to $40, you can sell the stock at $50 and potentially repurchase it at $40, thus making a profit.
             
             In summary:
             - Purchase a call option if you expect the underlying asset's price to **rise**.
