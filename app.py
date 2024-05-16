@@ -49,7 +49,7 @@ def main():
 
     display_str = f"""digraph {{
         rankdir="LR"
-        node [shape="box" width="1.6"]
+        node [shape="box" width="1.6" fontname="Arial"]
         {result};
         }}       
         """
